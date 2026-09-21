@@ -1,0 +1,102 @@
+[
+  {
+    "id_prescricao": "PRESC-20260921-023105",
+    "data_hora": "2026-09-21 02:31:05",
+    "nome_paciente": "Paciente#m0003",
+    "modo_entrada": "Guia Clínico Estruturado (7 Categorias da Dissertação)",
+    "itens_prescritos": [
+      "CHASSI-PRISMA",
+      "CATMAT-446695"
+    ],
+    "total_itens": 2,
+    "lambda": 0.1,
+    "limite_orcamento": 4000.0,
+    "status_otimizacao": "Otimizado",
+    "custo_total": 2739.62,
+    "qualidade_total": 4.0,
+    "valor_fo": -0.547713383795008,
+    "data_hora_atualizacao": "2026-09-21 02:39:27",
+    "status_fb": "Otimizado",
+    "custo_fb": 2739.62,
+    "qualidade_fb": 4,
+    "valor_fo_fb": -0.547713383795008,
+    "detalhes_plim": [
+      {
+        "Componente": "CHASSI-PRISMA",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 2400.0,
+        "Pontos Qualidade": 1
+      },
+      {
+        "Componente": "CATMAT-446695",
+        "Fornecedor Escolhido": "Fornecedor-A",
+        "Valor do Item": 339.62,
+        "Pontos Qualidade": 3
+      }
+    ],
+    "detalhes_fb": [
+      {
+        "Componente": "CHASSI-PRISMA",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 2400.0,
+        "Pontos Qualidade": 1
+      },
+      {
+        "Componente": "CATMAT-446695",
+        "Fornecedor Escolhido": "Fornecedor-A",
+        "Valor do Item": 339.62,
+        "Pontos Qualidade": 3
+      }
+    ]
+  },
+  {
+    "id_prescricao": "PRESC-20260921-023038",
+    "data_hora": "2026-09-21 02:30:38",
+    "nome_paciente": "Paciente#m0002",
+    "modo_entrada": "Guia Clínico Estruturado (7 Categorias da Dissertação)",
+    "itens_prescritos": [
+      "CHASSI-PRISMA",
+      "CATMAT-446695"
+    ],
+    "total_itens": 2,
+    "lambda": 0.2,
+    "limite_orcamento": 1300.0,
+    "status_otimizacao": "Excedeu R$ 1.300,00",
+    "custo_total": 2651.15,
+    "qualidade_total": 2.0,
+    "valor_fo": null,
+    "data_hora_atualizacao": "2026-09-21 02:45:46",
+    "status_fb": "Excedeu R$ 1.300,00",
+    "custo_fb": 2651.15,
+    "qualidade_fb": 2.0,
+    "valor_fo_fb": null,
+    "detalhes_plim": [
+      {
+        "Componente": "CHASSI-PRISMA",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 2400.0,
+        "Pontos Qualidade": 1
+      },
+      {
+        "Componente": "CATMAT-446695",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 251.15,
+        "Pontos Qualidade": 1
+      }
+    ],
+    "detalhes_fb": [
+      {
+        "Componente": "CHASSI-PRISMA",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 2400.0,
+        "Pontos Qualidade": 1
+      },
+      {
+        "Componente": "CATMAT-446695",
+        "Fornecedor Escolhido": "Fornecedor-C",
+        "Valor do Item": 251.15,
+        "Pontos Qualidade": 1
+      }
+    ]
+  }
+]
