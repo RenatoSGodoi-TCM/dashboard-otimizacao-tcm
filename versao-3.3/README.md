@@ -13,7 +13,7 @@ O fluxo de processamento do dashboard foi desenhado seguindo as etapas tradicion
 
 ## Estrutura de Arquivos
 
-* `dashboard_tcm.py`: Script principal contendo a interface web e a lógica do motor de otimização.
+* `dash-tcm3.3.py`: Script principal contendo a interface web e a lógica do motor de otimização.
 * `dataset_7_componentes.json`: Catálogo planificado de peças e fornecedores.
 * `prescricoes_v2_pacientes.json`: Base de dados contendo a prescrição de componentes por paciente.
 * `requirements.txt`: Lista de dependências e bibliotecas necessárias.
