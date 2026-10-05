@@ -15,12 +15,12 @@ O fluxo de processamento do dashboard foi desenhado seguindo as etapas tradicion
 
 * `dash-tcm3.3.py`: Script principal contendo a interface web e a lógica do motor de otimização.
 * `dataset_7_componentes.json`: Catálogo planificado de peças e fornecedores.
-* `prescricoes_v2_pacientes.json`: Base de dados contendo a prescrição de componentes por paciente.
+* `dataset-prescricoes-manuais.json`: Base de dados contendo as prescrições de componentes por paciente.
 * `requirements.txt`: Lista de dependências e bibliotecas necessárias.
 
 ## Instalação e Requisitos
 
-Certifique-se de ter o Python 3.9+ instalado. Para instalar as bibliotecas necessárias, execute o comando abaixo no terminal:
+Certifique-se de ter o Python 3.10+ instalado. Para instalar as bibliotecas necessárias, execute o comando abaixo no terminal:
 
 ```bash
 pip install -r requirements.txt
@@ -34,7 +34,7 @@ O projeto foi desenvolvido e testado utilizando o ambiente do PyCharm. Para exec
 3. Digite o seguinte comando e pressione Enter:
 
 ```bash
-   streamlit run dashboard_tcm.py
+   streamlit run dash-tcm3.3.py
 ```
 
 4. Para encerrar a execução digite o seguinte comando e pressione Enter:
